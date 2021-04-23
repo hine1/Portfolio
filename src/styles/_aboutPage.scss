@@ -1,0 +1,32 @@
+.AboutPage{
+	background-color: rgba($light,0.5);
+	color:$medium;
+	padding-top:4rem;
+	h1{
+		padding-bottom: 2rem;
+	}
+	.goals{
+		display: flex;
+		gap: 2rem;
+	}
+	.introduction{
+		padding: 3rem 17rem;
+		min-height: calc(100vh - 34rem);
+		display: inline-grid;
+		grid-template-columns: auto auto;
+		img{
+			width: 18rem;
+			height:18rem;
+			object-fit: cover;
+			border-radius: 50%;
+			margin-right: 6rem;
+		}
+		p{
+			padding: 2rem 0;
+			text-align: left;
+			color: $medium-light;
+		}
+	}	
+
+	
+}

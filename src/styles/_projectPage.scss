@@ -1,0 +1,17 @@
+.ProjectPage{
+	color:$dark;
+	h1{
+		padding-top: 4rem;
+		padding-bottom: 2rem;
+	}
+	.projects{
+		width: 100%;
+		display: inline-grid;
+		grid-template-columns: auto auto auto;
+		.project{
+			width: 95%;
+			min-height: 30vh;
+			margin-bottom: 1rem;
+		}
+	}
+}

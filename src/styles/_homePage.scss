@@ -1,0 +1,66 @@
+.HomePage{
+	position: relative;
+	margin: 0 auto;
+	top: 2rem;
+	padding: 0;
+	padding-bottom: calc(100vh - 5rem);
+	svg{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+		z-index: -1;
+		#working{
+			#sky{
+				#stars-1{
+					animation-timing-function: ease-in-out;
+					animation: star 2.5s infinite;
+				}
+				#stars-2{
+					animation-timing-function: ease-in-out;
+					animation: star2 3.5s infinite;
+				}
+				#stars-3{
+					animation-timing-function: ease-in-out;
+					animation: star3 3s infinite;
+				}
+			}
+			#person{
+				#torso, #head {
+					animation: body 5s infinite;
+					animation-timing-function: ease-in-out;
+					transform-origin: center;
+				}
+				#left-arm, #right-arm{
+					animation: body 1.5s infinite;
+					animation-timing-function: ease-in-out;
+					transform-origin: center;
+
+				}
+				#plant #Vector_86{
+					animation: plant 4s infinite;
+					animation-timing-function: ease-in-out;
+				}
+			}
+		}
+	}
+
+	@keyframes star{
+		50% {transform: scale(1.005); transform: translateY(-1.1);}
+	}	
+	@keyframes star2{
+		50% {transform: scale(1.01); transform: translateY(1.1);}
+	}
+	@keyframes star2{
+		50% {transform: scale(1.008); transform: translateX(1.1);}
+	}
+	@keyframes plant{
+		50% {transform: scale(1.01);transform:  translateY(2);}
+	}	
+	@keyframes body{
+	  	50%{transform: rotate(-0.6deg);}
+
+	}
+
+}
