@@ -12,21 +12,27 @@
 		display: flex;
 		justify-content: space-around;
 	}
-	div.Card .h5{
-		margin-top:4rem;
-	}
-	
 
 	.introduction{
 		padding: 3rem 10rem;
 		display: flex;
-		img{
+		.profile-img{
+			background-image:linear-gradient(
+				rgba(116, 111, 204,0.15), 
+      			rgba(116, 111, 204,0.15)
+      		),url('../images/photo.jpg');
+      		width: 18vw;
+			height:18vw;
+			background-size: cover;
+			border-radius: 50%;
+		}
+/*		img{
 			width: 18vw;
 			height:18vw;
 			object-fit: cover;
 			border-radius: 50%;
 			margin-right: 6rem;
-		}
+		}*/
 		p{
 			padding: 2rem 0;
 			text-align: left;

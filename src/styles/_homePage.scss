@@ -55,8 +55,8 @@
 
 	}	
 	@keyframes star2{
-		60% {opacity:1;}
 		50% {transform: scale(1.01); transform: translateY(1.1);}
+		60% {opacity:1;}
 	}
 	@keyframes star3{
 		50% {transform: scale(1.008); transform: translateX(1.1);}
