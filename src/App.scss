@@ -18,6 +18,9 @@ $page-padding-small: 2rem 10rem;
 		.NavBar div.brand{padding-left: 0;padding-right: 0;}
 	}*/
 
+html{
+	scroll-behavior: smooth;
+}
 *{
 	padding: 0;
 	margin: 0;

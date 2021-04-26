@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProjectPage(){
 	return(
-		<div className="ProjectPage">
+		<div className="ProjectPage" id="Project">
 				<h1>Projects</h1>
 				<div className="projects">
 				    <iframe className="project" src="https://codepen.io/minitrash/full/dmYPYj/"></iframe>

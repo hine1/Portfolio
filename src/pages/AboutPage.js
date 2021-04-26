@@ -4,7 +4,7 @@ import Card from '../components/Card';
 import image from '../images/photo.jpg';
 function AboutPage(){
 	return(
-		<div className="AboutPage">
+		<div className="AboutPage" id="About">
 				<h1>About Me</h1>
 				<div className="goals">
 					{goals.map((goal) => 

@@ -6,16 +6,14 @@ import AboutPage from './pages/AboutPage';
 import ProjectPage from './pages/ProjectPage';
 import ContactPage from './pages/ContactPage';
 
-
 function App() {
   return (
     <div className="App">
       <NavBar />      
-      <HomePage/>
-      <AboutPage/>
-      <ProjectPage/>
-      <ContactPage/>
-      <Footer/>
+        <AboutPage/>
+        <ProjectPage/>
+        <ContactPage/>
+        <Footer/>
     </div>
   );
 }

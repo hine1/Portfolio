@@ -1,9 +1,9 @@
 .HomePage{
-	position: relative;
-	margin: 0 auto;
-	top: 2rem;
+/*	position: relative;
+	margin: 0 auto;*/
 	padding: 0;
 	padding-bottom: calc(100vh - 5rem);
+	scroll-margin-top: 5rem;
 	svg{
 		position: absolute;
 		height: 100%;
@@ -13,6 +13,9 @@
 		z-index: -1;
 		#working{
 			#sky{
+				#Vector, #Vector_2{
+					transform: scale(2.5) translateX(-20rem) translateY(3rem);
+				}
 				#stars-1{
 					opacity: 0;
 					animation-timing-function: ease-in-out;
@@ -30,8 +33,13 @@
 				}
 			}
 			#person{
-				#torso, #head {
-					animation: body 5s infinite;
+				#torso {
+					animation: body 2s infinite;
+					animation-timing-function: ease-in-out;
+					transform-origin: center;
+				}
+				#head{
+					animation: head 2s infinite;
 					animation-timing-function: ease-in-out;
 					transform-origin: center;
 				}
@@ -69,5 +77,13 @@
 	  	50%{transform: rotate(-0.6deg);}
 
 	}
+	@keyframes head{
+		30%{transform: rotate(-2deg);}
+	}
+}
 
+@media (max-width: 1555px){
+	.HomePage{
+		padding-bottom: calc(100vh - 6.1rem);
+	}
 }

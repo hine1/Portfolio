@@ -12,24 +12,16 @@ function NavBar(){
 			<nav className="nav">
 				<ul className="nav-items">
 					<li className="nav-item">
-						<NavLink to="/" exact activeClassName="active">
-						Home
-						</NavLink>
+						<a href="#Home">Home</a>
 					</li>
 					<li className="nav-item">
-						<NavLink to="/about" exact activeClassName="active">
-						About
-						</NavLink>
+						<a href="#About">About</a>
 					</li>
 					<li className="nav-item">
-						<NavLink to="/portfolio" exact activeClassName="active">
-						Portfolio
-						</NavLink>
+						<a href="#Project">Projects</a>
 					</li>
 					<li className="nav-item">
-						<NavLink to="/contact" exact activeClassName="active">
-						Contact
-						</NavLink>
+						<a href="#Contact">Contact</a>
 					</li>
 				</ul>
 			</nav>

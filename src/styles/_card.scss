@@ -4,7 +4,6 @@
 	padding: 4rem 1rem;
 	background-color: rgba(0,0,0,0.01);
 	box-shadow: 2px 2px rgba($medium,0.1);
-	/*color: $medium;*/
 	.icon{
 		
 		font-size: 2rem;
@@ -15,7 +14,11 @@
 		color: $medium-light;
 		margin-top: 1rem;
 	}
-	&:hover{
+
+}
+
+@media (hover){
+	.Card:hover{
 		transform: translateY(-1.5rem) scale(1.03);
 	}
 }
