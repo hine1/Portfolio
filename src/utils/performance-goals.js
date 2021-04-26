@@ -2,26 +2,26 @@ export const goals = [
 	{
 		iconName:'FaRocket',
 		keyword: 'Responsive',
-		descriptions: 'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting'
+		descriptions: 'Shatterproof layout regardless of screen sizes.'
 	},
 	{
 		iconName:'FaBrain',
 		keyword: 'Intuitive',
-		descriptions: 'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting'
+		descriptions: 'Prioritizing easy to use, intuitive UX/UI.'
 	},
 	{
 		iconName:'FaLocationArrow',
 		keyword: 'Dynamic',
-		descriptions: 'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting'
+		descriptions: 'Prioritizing user interactivity and user experience.'
 	},
 	{
 		iconName:'FaReadme',
 		keyword: 'Readability',
-		descriptions: 'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting'
+		descriptions: 'Code should be readable for further usage and updates.'
 	},
 	{
 		iconName:'FaRecycle',
 		keyword: 'Reusability',
-		descriptions: 'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting'
+		descriptions: 'Code reusability is important for scalability.'
 	},
 ]

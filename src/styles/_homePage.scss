@@ -14,14 +14,17 @@
 		#working{
 			#sky{
 				#stars-1{
+					opacity: 0;
 					animation-timing-function: ease-in-out;
 					animation: star 2.5s infinite;
 				}
 				#stars-2{
+					opacity: 0;
 					animation-timing-function: ease-in-out;
 					animation: star2 3.5s infinite;
 				}
 				#stars-3{
+					opacity: 0;
 					animation-timing-function: ease-in-out;
 					animation: star3 3s infinite;
 				}
@@ -47,13 +50,17 @@
 	}
 
 	@keyframes star{
+		30%{opacity: 1;}
 		50% {transform: scale(1.005); transform: translateY(-1.1);}
+
 	}	
 	@keyframes star2{
+		60% {opacity:1;}
 		50% {transform: scale(1.01); transform: translateY(1.1);}
 	}
-	@keyframes star2{
+	@keyframes star3{
 		50% {transform: scale(1.008); transform: translateX(1.1);}
+		90%{opacity: 1;}
 	}
 	@keyframes plant{
 		50% {transform: scale(1.01);transform:  translateY(2);}

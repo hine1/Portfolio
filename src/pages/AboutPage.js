@@ -13,8 +13,10 @@ function AboutPage(){
 				</div>
 				<div className="introduction">
 					<div className="img"><img src={image}/></div>
-					<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
-					<br/>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+					<p>Full Stack Web Developer 
+						<br/>
+						Focused on designing clean and user-friendly experiences.
+					</p>
 				</div>
 		</div>
 	)
