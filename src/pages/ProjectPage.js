@@ -3,7 +3,6 @@ import React from 'react';
 function ProjectPage(){
 	return(
 		<div className="ProjectPage">
-			<div className="content">
 				<h1>Projects</h1>
 				<div className="projects">
 				    <iframe className="project" src="https://codepen.io/minitrash/full/dmYPYj/"></iframe>
@@ -13,7 +12,6 @@ function ProjectPage(){
 				    <iframe className="project" src="https://codepen.io/minitrash/full/LQoyxX/"></iframe>
 				    <iframe className="project" src="https://codepen.io/minitrash/full/yKBBNB/"></iframe>
   				</div>
-			</div>
 		</div>
 	);
 }

@@ -1,17 +1,51 @@
 .ProjectPage{
 	color:$dark;
+	padding: $page-padding-default;
+	text-align: center;
 	h1{
-		padding-top: 4rem;
 		padding-bottom: 2rem;
 	}
 	.projects{
 		width: 100%;
-		display: inline-grid;
-		grid-template-columns: auto auto auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.project{
+		flex: 1 1 33%;
+		min-height: 30vh;
+		margin-bottom: 1rem;
+	}
+}
+
+@media  (max-width: 600px){
+	.ProjectPage{
+		padding:1rem;
+	}
+}
+@media  (min-width: 600px){
+	.ProjectPage{
+		padding:1rem;
 		.project{
-			width: 95%;
-			min-height: 30vh;
-			margin-bottom: 1rem;
+			flex-basis: 100%;
 		}
+	}
+}
+@media (min-width: 768px){
+	.ProjectPage{
+		padding: 2rem 2.5rem;
+		.project{
+			flex: 0 0 45%;
+		}
+	}
+}
+@media (min-width: 1200px){
+	.ProjectPage{
+		padding: 2rem 8rem;
+	}
+}
+@media (min-width: 1555px){
+	.ProjectPage{
+		padding: 2rem 13rem;
 	}
 }

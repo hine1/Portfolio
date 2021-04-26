@@ -2,12 +2,12 @@
 	height:70vh;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	background-color: $medium;
 	color: rgba($medium,0.7);
 	.contactCard{
-		width: calc(100vw - 30rem);
 		height: 30rem;
-		margin: 0 auto;
+		margin: 0;
 		text-align: center;
 		background-image: 	linear-gradient(105deg,
 											rgba(255,255,255,0.9) 0%,
@@ -58,5 +58,37 @@
 				}
 			}
 		}
+	}
+}
+
+@media  (max-width: 768px){
+	.ContactPage .contactCard{
+		width: calc(100vw - 3rem);
+		background-image:url('../images/violet.jpg');
+		.contactSection{
+			width: 100%;
+			background-color: rgba(255,255,255,0.7);
+			padding-bottom: 1.3rem;
+		}
+	}
+}
+@media (min-width: 768px){
+	.ContactPage .contactCard{
+		width: calc(100vw - 8.5rem);
+	}
+}
+/*@media (min-width: 992px){
+	.ContactPage .contactCard{
+		width: calc(100vw - 10rem);
+	}
+}*/
+@media (min-width: 1200px){
+	.ContactPage .contactCard{
+		width: calc(100vw - 21rem);
+	}
+}
+@media (min-width: 1555px){
+	.ContactPage .contactCard{
+		width: calc(100vw - 31rem);
 	}
 }

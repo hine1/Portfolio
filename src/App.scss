@@ -3,6 +3,9 @@ $medium:#373474;
 $medium-light:#7671C2;
 $light:#D0CDE1;
 
+$page-padding-default: 2rem 15rem;
+$page-padding-small: 2rem 10rem;
+
 @import './styles/navbar';
 @import './styles/footer';
 @import './styles/homePage';
@@ -11,7 +14,9 @@ $light:#D0CDE1;
 @import './styles/projectPage';
 @import './styles/contactPage';
 
-
+/*@media  (max-width: 992px){
+		.NavBar div.brand{padding-left: 0;padding-right: 0;}
+	}*/
 
 *{
 	padding: 0;

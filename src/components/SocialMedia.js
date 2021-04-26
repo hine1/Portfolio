@@ -25,7 +25,7 @@ function getIcon(iconName){
 	}
 }
 function getLink(type){
-	const media = socialMedia.find(item => item.type == type);
+	const media = socialMedia.find(item => item.type === type);
 	if (media != null) return media;
 }
 

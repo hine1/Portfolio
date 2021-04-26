@@ -1,22 +1,26 @@
 .AboutPage{
 	background-color: rgba($light,0.5);
 	color:$medium;
-	padding-top:4rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
 	h1{
 		padding-bottom: 2rem;
 	}
 	.goals{
+		gap:1rem;
 		display: flex;
-		gap: 2rem;
+		justify-content: space-around;
 	}
+
+	
+
 	.introduction{
-		padding: 3rem 17rem;
-		min-height: calc(100vh - 34rem);
-		display: inline-grid;
-		grid-template-columns: auto auto;
+		padding: 3rem 10rem;
+		display: flex;
 		img{
-			width: 18rem;
-			height:18rem;
+			width: 18vw;
+			height:18vw;
 			object-fit: cover;
 			border-radius: 50%;
 			margin-right: 6rem;
@@ -29,4 +33,77 @@
 	}	
 
 	
+}
+@media  (max-width: 600px){
+	.AboutPage{
+		padding:1rem;
+		.goals{
+			flex-wrap: wrap;
+			.Card{
+			flex: 0 0 100%;
+			
+			}
+		}
+		.introduction{
+			flex-direction: column;
+			padding:1rem;
+		}
+	}
+	
+
+
+}
+@media  (min-width: 600px){
+	.AboutPage{
+		padding:1rem;
+		.introduction{
+			padding: 2rem 4rem;
+
+		}
+		div.img img{
+			margin-right: 1rem;
+		}
+		.goals{
+			flex-wrap: wrap;
+			.Card{
+			flex: 0 0 30%;
+			}
+		}
+			 
+	}
+}
+@media  (min-width: 992px){
+	.AboutPage .introduction{
+		padding: 2rem 6rem;
+	}
+}
+
+@media  (min-width: 1200px){
+	.AboutPage{
+		padding: 0rem 8.5rem;
+		.introduction{
+			padding: 2rem 12rem;
+			.img{
+				margin-right:5rem;
+			}
+		}
+		.goals{
+			flex-wrap: wrap;
+			.Card{
+			flex: 0 1 30%;		
+			}
+		}
+	}
+}
+
+@media  (min-width: 1555px){
+	.AboutPage{
+		padding: $page-padding-default;
+		.introduction{
+			padding: 2rem 10rem;
+		}
+		.goals{
+			flex-wrap: nowrap;
+		}
+	}
 }
