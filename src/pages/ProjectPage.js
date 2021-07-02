@@ -4,7 +4,7 @@ import image from '../images/twist.jpg';
 function ProjectPage(){
 	const toggleProjectDetails = e => {
 		let projectDetails = document.getElementById("TwistDetails");
-		if (projectDetails.style.width == '0px'){
+		if (projectDetails.style.width === '0px'){
 			projectDetails.style.width='100%';
 			projectDetails.style.height='100%';
 			projectDetails.style.zIndex = '1';
@@ -28,6 +28,7 @@ function ProjectPage(){
 					</div>
 					<div id="TwistDetails"  onClick={toggleProjectDetails}>
 						<img src={image} alt="Twist"/>
+
 					</div>
   				</div>
 		</div>
