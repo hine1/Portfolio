@@ -12,11 +12,37 @@
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
-	.project{
-		flex: 1 1 33%;
-		min-height: 30vh;
-		margin-bottom: 1rem;
+	.Twist{
+
+		min-width:25rem;
+		width: 70%;
+		box-shadow: 13px 15px rgba($medium, 0.03);
+		transition:0.5s;
+		&:hover{
+			cursor: pointer;
+			transform: translate(13px, 15px);
+			box-shadow: none;
+		}
+		img{
+			width: 100%;
+		}
+		
 	}
+	#TwistDetails{
+		width: 0;
+		height: 0;
+		position: fixed;
+		top: 0;
+		overflow-x:hidden;
+		transition: 0.5s;
+		border-left: 15vw solid rgba(55, 52, 116, 0.01);
+	    border-right: 15vw solid rgba(55, 52, 116, 0.1);
+	    background: white;
+		img{
+			height: 100%;
+		}
+	}
+
 }
 
 @media  (max-width: 600px){

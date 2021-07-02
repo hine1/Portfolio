@@ -1,7 +1,6 @@
 import React from 'react';
 import {goals} from '../utils/performance-goals';
 import Card from '../components/Card';
-import image from '../images/photo.jpg';
 function AboutPage(){
 	return(
 		<div className="AboutPage" id="About">
